@@ -1,6 +1,7 @@
 from flask import Flask, jsonify
 import requests
 
+
 app = Flask(__name__)
 
 # Creación de API
@@ -50,12 +51,8 @@ def obtener_lista():
          "Edad": "27", "Nacionalidad": "España", "Dorsal": "24"}]
     return jsonify(jugadores)
 
-# Iniciar el servidor
-if __name__ == '__main__':
-    app.run(debug=True, port=5000)
-
 # Consumo de API
-def hacer_peticion():
+def creacion_api():
     url = "http://127.0.0.1:5000/goldle/jugadores"
     try:
         respuesta = requests.get(url)
@@ -64,3 +61,8 @@ def hacer_peticion():
     except requests.exceptions.RequestException as e:
         print(f"Error al hacer la petición: {e}")
         return []
+
+
+# Iniciar el servidor
+if __name__ == '__main__':
+    app.run(debug=True, port=5000)
