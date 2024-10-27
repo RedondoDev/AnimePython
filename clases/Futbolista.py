@@ -20,13 +20,18 @@ def tachar_valor(valor):
 
 def comparar_numeros(coincidencias, jugador_intento, jugador_oculto):
     # Modifica el diccionario con las pistas para que los números te indiquen si son menores o mayores.
-    if jugador_oculto.dorsal > jugador_intento.dorsal:
+    dorsal_intento = int(jugador_intento.dorsal)
+    dorsal_oculto = int(jugador_oculto.dorsal)
+    edad_intento = int(jugador_intento.edad)
+    edad_oculto = int(jugador_oculto.edad)
+
+    if dorsal_oculto > dorsal_intento:
         coincidencias['dorsal'] = f"{tachar_valor(jugador_intento.dorsal)} ↑"
-    elif jugador_oculto.dorsal < jugador_intento.dorsal:
+    elif dorsal_oculto < dorsal_intento:
         coincidencias['dorsal'] = f"{tachar_valor(jugador_intento.dorsal)} ↓"
-    if jugador_oculto.edad > jugador_intento.edad:
+    if edad_oculto > edad_intento:
         coincidencias['edad'] = f"{tachar_valor(jugador_intento.edad)} ↑"
-    elif jugador_oculto.edad < jugador_intento.edad:
+    elif edad_oculto < edad_intento:
         coincidencias['edad'] = f"{tachar_valor(jugador_intento.edad)} ↓"
     return coincidencias
 
