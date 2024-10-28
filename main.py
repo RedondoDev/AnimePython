@@ -21,7 +21,6 @@ if __name__ == "__main__":
             nombre_intento = introduce_futbolista(jugadores)
             if nombre_intento:
                 jugador_intento = buscar_futbolista(jugadores, nombre_intento)
-                print(f"{jugador_intento.__str__()}")
                 coincidencias = comparar_jugadores(jugador_intento, jugador_oculto)
                 print(
                     f"Dorsal: {coincidencias['dorsal']} - Edad: {coincidencias['edad']} - Equipo: {coincidencias['equipo']}"
