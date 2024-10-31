@@ -8,12 +8,12 @@
 </div>
 
 ## Table of Contents
-- [Intro](#football python)
+- [Intro](#intro)
 - [Technologies](#technologies)
 - [Images](#images)
 - [License](#license)
 
-# Football Python
+# Intro
 Python console game in which you have to guess a Real Madrid, Atlético de Madrid and Barcelona soccer player.
 The program asks you to enter a name and returns clues to help you get closer to the solution.
 <p align="center">
