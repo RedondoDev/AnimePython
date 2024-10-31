@@ -14,7 +14,7 @@ class Futbolista:
 
 
 def tachar_valor(valor):
-    # Cambia el formato del texto para los prints
+    # Cambia el formato del texto para los prints (tacha lo incorrecto).
     return ''.join([char + '\u0336' for char in str(valor)])
 
 
