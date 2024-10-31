@@ -14,7 +14,7 @@
 - [License](#license)
 
 # Intro
-Python console game in which you have to guess a Real Madrid, Atlético de Madrid and Barcelona soccer player.
+Python console game in which you have to guess a random Real Madrid, Atlético de Madrid or Barcelona soccer player.
 The program asks you to enter a name and returns clues to help you get closer to the solution.
 <p align="center">
     <img src="https://github.com/user-attachments/assets/6f0914d6-61a4-4866-9147-a28baca929d9" width="70%">
