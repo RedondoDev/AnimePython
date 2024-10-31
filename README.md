@@ -15,8 +15,16 @@ The program asks you to enter a name and returns clues to help you get closer to
 </p>
 
 ## Table of Contents
+- [Technologies](#technologies)
 - [Images](#images)
 - [License](#license)
+
+## Technologies
+<ul>
+    <li>Python</li>
+    <li>Flask</li>
+    <li>Pandas</li>
+</ul>
 
 ## Images
 | App | 
