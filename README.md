@@ -11,21 +11,17 @@
 Python console game in which you have to guess a Real Madrid, Atlético de Madrid and Barcelona soccer player.
 The program asks you to enter a name and returns clues to help you get closer to the solution.
 <p align="center">
-    <img src="https://github.com/RedondoDev/RandomChamp/blob/master/randomChampBanner.jpeg" width="70%">
+    <img src="https://github.com/user-attachments/assets/6f0914d6-61a4-4866-9147-a28baca929d9" width="70%">
 </p>
 
 ## Table of Contents
 - [Images](#images)
-- [Video](#video)
 - [License](#license)
 
 ## Images
-| App | App2 | 
-|:---:|:---:|
-|![image](https://github.com/RedondoDev/RandomChamp/blob/master/appImage.png)|![image](https://github.com/RedondoDev/RandomChamp/blob/master/appImage2.png)|
-
-## Video
-https://github.com/user-attachments/assets/210aa7c0-5eb9-4a83-97f4-038449cace45
+| App | 
+|:---:|
+|![image](https://github.com/user-attachments/assets/e2ba8d35-5c55-4928-82cf-8d6d27fb6c2a)|
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
